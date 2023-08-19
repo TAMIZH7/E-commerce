@@ -1,0 +1,140 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Section</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+      <div class="container">
+        <div class="navbar">
+            <h2 class="f">Tamizh's Store</h2>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">contact</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+        </nav>
+          <img src="images/cart.png" alt="" width="30px" height="30px">
+          <img src="images/menu.png" class="menu" onclick="menutoggle()">
+        </div>
+    
+    </div>
+<!---cart-->
+     <div class="s_container cart">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                     <div class="info">
+                        <img src="images/buy-1.jpg" alt="">
+                        <div>
+                            <p>Red Printed T-shirt</p>
+                            <small>₹299</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>₹299</td>
+            </tr>
+            <tr>
+                <td>
+                     <div class="info">
+                        <img src="images/buy-2.jpg" alt="">
+                        <div>
+                            <p>Black HRX Shoe</p>
+                            <small>₹149</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>₹149</td>
+            </tr>
+            <tr>
+                <td>
+                     <div class="info">
+                        <img src="images/buy-3.jpg" alt="">
+                        <div>
+                            <p>Light Green Pant</p>
+                            <small>₹199</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>₹199</td>
+            </tr>
+        </table>
+        <div class="tot-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>₹647</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>₹3</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>₹650</td>
+                </tr>
+            </table>
+        </div>
+     </div>
+
+     <!---footer-->
+     <div class="footer">
+        <div class="s_container">
+            <div class="row">
+                <div class="foot-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Andriod and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="playstore img">
+                        <img src="images/app-store.png" alt="app store img">
+                    </div>
+                </div>
+                <div class="foot-2">
+                    <h2 class="f">Tamizh's Store</h2>
+                    <p>Our purpose to Make the Sports Accessible to Many people</p>
+                </div>
+                <div class="foot-3">
+                    <h3>Usefull links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog post</li>
+                        <li>Replacement policy</li>
+                        <li>Return policy </li>
+                    </ul>
+                </div>
+                <div class="foot-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <a href=""><li>Facebbok</li></a>
+                        <a href=""><li>Instagram</li></a>
+                        <a href=""><li>Youtube</li></a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">copyright @2023</p>
+        </div>
+     </div>
+       <script src="script.js"></script>  
+    
+</body>
+</html>
